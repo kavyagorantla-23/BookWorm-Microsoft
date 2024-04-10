@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookWorm</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            background-color: #f5f5f5;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 0;
+        }
+        nav li {
+            margin: 0 1rem;
+        }
+        .books {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 2rem;
+        }
+        .book {
+            width: 30%;
+            background-color: #fff;
+            padding: 1rem;
+            margin: 1rem;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>BookWorm</h1>
+            <input type="text" placeholder="Search for books...">
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <section class="books">
+        <!-- Display popular books here -->
+        <!-- Each book should have a cover, title, author, and brief description -->
+        <!-- Add to cart and purchase options -->
+        <div class="book">
+            <img src="book1.jpg" alt="Book Cover">
+            <h2>Book Title</h2>
+            <p>Author: John Doe</p>
+            <p>Brief description of the book...</p>
+            <button>More Details</button>
+            <button>Add to Cart</button>
+        </div>
+        <!-- Repeat for other books -->
+    </section>
+    <footer>
+        <div class="container">
+            <p>© 2023 BookWorm. All rights reserved.</p>
+            <ul>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script>
+        // Add your JavaScript code here
+        // Implement functionality for more details button, cart, etc.
+    </script>
+</body>
+</html>
